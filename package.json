@@ -1,0 +1,22 @@
+{
+  "name": "readfile",
+  "version": "1.0.0",
+  "description": "read file module with cached",
+  "main": "readFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickyhadi/readfile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickyhadi/readfile/issues"
+  },
+  "homepage": "https://github.com/rickyhadi/readfile#readme",
+  "dependencies": {
+    "cachedfs": "^0.3.3"
+  }
+}
