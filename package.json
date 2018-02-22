@@ -6,17 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rickyhadi/readfile.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rickyhadi/readfile/issues"
-  },
-  "homepage": "https://github.com/rickyhadi/readfile#readme",
   "dependencies": {
-    "cachedfs": "^0.3.3"
+    "cachedfs": "^0.3.3",
+    "promise": "^8.0.1"
   }
 }
