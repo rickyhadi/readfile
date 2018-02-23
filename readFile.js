@@ -5,7 +5,7 @@ async function readFile(filepath){
     var result ='';
     try{
         result = await new Promise(function(resolve,reject){
-            fs.readFile(basedir + filepath, 'utf-8', function(e,c){
+            fs.readFile(rootdir + filepath, 'utf-8', function(e,c){
                 if(e){
                     reject(e);
                 }
