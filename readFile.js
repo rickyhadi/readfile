@@ -2,6 +2,7 @@ var CachedFs = require('cachedfs');
 var fs = new CachedFs();
 
 async function readFile(filepath){
+    var rootdir = env.rootdir || __dirname;
     var result ='';
     try{
         result = await new Promise(function(resolve,reject){
